@@ -1,0 +1,1 @@
+document.querySelector(".button").addEventListener("click",(()=>{window.location.assign("https://www.instagram.com/balu_sairam/")}));
