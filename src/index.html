@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <button class="button"><h1>Github</h1></button>
+    <button class="button"><h1 class="h1">Github</h1></button>
+    <h1 style="margin: 10px">What day is it? 😕</h1>
+    <h2>Today is <span id="day">?</span></h2>
+
+    <h1>What month is it? 😕</h1>
+    <h2><span id="month">?</span> of the year <span id="year"></span></h2>
   </body>
+  <script type="text/javascript">
+    const H1 = document.querySelector('.button')
+
+    H1.addEventListener('click', () => {
+      window.location.assign('https://www.instagram.com/balu_sairam/')
+    })
+  </script>
   <script src="index.js"></script>
 </html>
