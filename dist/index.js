@@ -1,1 +1,1 @@
-document.querySelector(".button").addEventListener("click",(()=>{window.location.assign("https://www.instagram.com/balu_sairam/")}));
+(()=>{const e=(e=new Date)=>[["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][e.getDay()],["January","February","March","April","May","June","July","August","September","October","November","December"][e.getMonth()],e.getFullYear()];try{document.getElementById("day").innerText=e()[0],document.getElementById("month").innerText=e()[1],document.getElementById("year").innerText=e()[2]}catch(e){}})();
